@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Banner */
+  .banner {
+    background-color: #eee;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 2em auto;
+  }
+  
+  input, select, button {
+    margin: 0.5em 0;
+    padding: 0.5em;
+  }
+  /* Estilos para la sección de catálogo */
+#catalogo {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #catalogo h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .producto {
+    width: 30%;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .producto h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .producto p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .btn-agregar {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e44d26;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-agregar:hover {
+    background-color: #c6361f;
+  }
+  /* Estilos generales para el Dashboard */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    background-color: #e44d26;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c6361f;
+}
+
+/* Estilos para las secciones del Dashboard */
+.productos-dashboard, .usuarios-dashboard {
+    margin-bottom: 40px;
+}
+
+#lista-productos, #lista-usuarios {
+    margin-top: 20px;
+}
+
+#lista-productos div, #lista-usuarios div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

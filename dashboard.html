@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - HYPE PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html" id="logout">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Bienvenido al Dashboard</h1>
+
+        <section class="productos-dashboard">
+            <h2>Gestión de Productos</h2>
+            <button id="btn-agregar-producto">Agregar Producto</button>
+
+            <!-- Lista de productos -->
+            <div id="lista-productos">
+                <!-- Los productos se cargarán aquí dinámicamente -->
+            </div>
+        </section>
+
+        <section class="usuarios-dashboard">
+            <h2>Gestión de Usuarios</h2>
+            <button id="btn-agregar-usuario">Agregar Usuario</button>
+
+            <!-- Lista de usuarios -->
+            <div id="lista-usuarios">
+                <!-- Los usuarios se cargarán aquí dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HYPE PROJECT. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
